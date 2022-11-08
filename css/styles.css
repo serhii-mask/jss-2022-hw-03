@@ -361,13 +361,17 @@ h6 {
 }
 
 .projects-list .item {
-	margin-top: 30px;
+	margin-bottom: 30px;
 	width: 370px;
 	border: 1px solid #EEEEEE;
 }
 
 .projects-list .item:not(:nth-child(3n)) {
 	margin-right: 30px;
+}
+
+.projects-list .item:nth-last-child(-n + 3) {
+	margin-bottom: 0;
 }
 
 .projects-list .description {
