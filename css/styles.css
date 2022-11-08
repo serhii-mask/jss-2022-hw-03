@@ -110,6 +110,8 @@ h6 {
 	font-weight: 500;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	padding-top: 32px;
+	padding-bottom: 32px;
 }
 
 .auth-nav .link:hover,
@@ -362,7 +364,7 @@ h6 {
 
 .projects-list .item {
 	margin-bottom: 30px;
-	width: 370px;
+	width: calc((100% - 60px) / 3);
 	border: 1px solid #EEEEEE;
 }
 
@@ -372,6 +374,10 @@ h6 {
 
 .projects-list .item:nth-last-child(-n + 3) {
 	margin-bottom: 0;
+}
+
+.projects-list .image {
+	width: 100%;
 }
 
 .projects-list .description {
